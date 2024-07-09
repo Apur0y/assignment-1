@@ -46,7 +46,7 @@ body{
 .contactBtn{
     height: 72px;
     width: 270px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     background-color: rgba(13, 19, 33, 1);
     color: white;
@@ -69,6 +69,7 @@ body{
 .main-title{
     text-align: center;
     font-size: 37px;
+    font-weight: 900;
 
 }
 .main-para{
@@ -77,13 +78,16 @@ body{
     color:rgba(13, 19, 33, 1) ;
     opacity: 0.8;
     font-size:20px ;
+    margin-bottom: 60px;
 }
 .reason-1{
     display: flex;
     flex-direction: row;
-    margin-top: 110px;
+    margin-top: 40px;
     justify-content: space-between;
-
+    background: linear-gradient(120deg,white,rgb(250, 250, 250));
+    padding: 50px;
+    border-radius: 20px;
 
 }
 .left{
@@ -117,4 +121,47 @@ body{
    border: 2px solid black;
    opacity: 0.8;
 
+}
+.header-anchor{
+    text-decoration: none;
+    color: white;
+
+}
+.video{
+    width: 1227px;
+    height: 656px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+ align-self: center;
+ 
+}
+.video-src{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+ align-self: center;
+}
+.youtube{
+    height: 580px;
+    width: 1150px;
+    border-radius: 10px;
+}
+.main-para2{
+    width: 1170px;
+    text-align: center;
+    margin-top: 25px;
+    color:rgba(13, 19, 33, 1) ;
+    opacity: 0.8;
+    font-size:20px ;
+    margin-bottom: 60px;
+}
+.main-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
