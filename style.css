@@ -14,6 +14,7 @@ body{
     background-image: url(./B10A1-Challenge-Begins-main/assets/Hero-bg.png);
     display: flex;
     justify-content: center;
+    
 }
 .headersec1{
     width: 1070px;
@@ -164,4 +165,17 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+}
+.linkup{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+
+li{
+    text-decoration: none;
 }
