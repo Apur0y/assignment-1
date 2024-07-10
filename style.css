@@ -179,3 +179,42 @@ body{
 li{
     text-decoration: none;
 }
+.html{
+    background-color: rgb(255, 246, 248);
+    width: 405px;
+    height:325px ;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 20px;
+}
+.html-img{
+    height: 70px;
+    width: 70px;
+}
+.html-heading{
+    font-weight: 800;
+}
+.html-para{
+    opacity: 0.7;
+    
+}
+.topics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.html-anchor{
+    color: black;
+    font-weight: 800;
+}
+.css-bg{
+    background-color: rgb(242, 255, 254);
+}
+.js-bg{
+    background-color: rgb(242, 255, 206);
+}
